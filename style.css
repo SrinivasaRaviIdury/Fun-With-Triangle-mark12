@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #293444;
+  color: white;
+}
+button {
+  margin: 1rem 0;
+  height: 2rem;
+  color: #293444;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  background-color: #045de2e7;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: auto 0.7rem;
+}
+nav a:hover {
+  color: #293444;
+}
+.Checking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75vw;
+  margin: 2.5rem auto;
+}
+.Checking h1,
+p {
+  margin: 0.5rem 0;
+}
+.Checking__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem auto;
+  width: 300px;
+}
+
+.Checking__form label {
+  margin: 0.5rem 0;
+}
+.Checking__form input {
+  height: 2rem;
+}
+.Checking__form button {
+  margin: 1rem 0;
+  height: 2rem;
+  color: #293444;
+  cursor: pointer;
+}
+/*quiz.html*/
+.quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 1rem auto;
+}
+.quiz-form {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid lightgray;
+  margin-top: 1rem;
+}
+.question-container {
+  margin: 1rem 2rem;
+}
+.question-container input {
+  margin: 1.5rem 0.5rem;
+}
+.quiz button {
+  width: 10rem;
+  height: 2rem;
+}
+.hypotenuse-area {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 5rem auto;
+}
+
+.hypotenuse-area input {
+  height: 2rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+#output {
+  color: #c9dbf7e7;
+}
+.hypotenuse-area h1 {
+  margin: 1rem;
+}
